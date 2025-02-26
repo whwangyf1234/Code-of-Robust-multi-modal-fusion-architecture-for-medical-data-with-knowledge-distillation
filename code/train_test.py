@@ -153,7 +153,7 @@ def train_TEXT_net1(
         drop_last=False
     )
     device = config.device
-    model = allmodel.TEXT_IMG_Tabular_SA(config).to(device)
+    model = allmodel.TEXT_IMG_Tabular_SA1(config).to(device)
     # model = torch.compile(model)
     # print(model)
 
